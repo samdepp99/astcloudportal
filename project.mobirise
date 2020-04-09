@@ -38,7 +38,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 11,
+    "uniqCompNum": 18,
     "versionPublish": "4.12.3",
     "imageResize": true
   },
@@ -1406,13 +1406,388 @@
             }
           },
           "_name": "content5",
-          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">AP payload info</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\"></h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content5\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#0f7699\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center mbr-bold mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\">Financials Payload Information</h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">This page will hold all the financials related payloads</h3>\n                <p class=\"mbr-text align-center mbr-white pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" mbr-if=\"showText\" mbr-article data-multiline>\n                    Shape your future web project with sharp design and refine coded functions\n                </p>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-white-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rVuZQUZyy0",
+          "_anchor": "content5-8",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content5-8"
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#0f7699",
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle DIV": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">AP Invoice Creation</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\">Sample Payload:\n<div>&lt;soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ucm=\"http://www.oracle.com/UCM\"&gt;\n</div><div>&nbsp; &nbsp;&lt;soapenv:Header/&gt;\n</div><div>&nbsp; &nbsp;&lt;soapenv:Body&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;ucm:GenericRequest webKey=\"cs\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Service IdcService=\"GET_FILE\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ucm:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Field name=\"dID\"&gt;236989&lt;/ucm:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ucm:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;/ucm:Service&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;/ucm:GenericRequest&gt;\n</div><div>&nbsp; &nbsp;&lt;/soapenv:Body&gt;\n</div><div>&lt;/soapenv:Envelope&gt;</div><br><div><b>Response Payload&nbsp;</b></div><br><div><b><br></b></div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rVuZRujvdO",
+          "_anchor": "content4-9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".content-slider": {
+              "display": "-webkit-flex",
+              "justify-content": "center",
+              "-webkit-justify-content": "center"
+            },
+            ".modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".modal-body .close span": {
+              "font-style": "normal"
+            },
+            ".carousel-inner > .active, .carousel-inner > .next, .carousel-inner > .prev": {
+              "display": "-webkit-flex"
+            },
+            ".carousel-control .icon-next, .carousel-control .icon-prev": {
+              "margin-top": "-18px",
+              "font-size": "40px",
+              "line-height": "27px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            "@media (max-width: 767px)": {
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100%!important"
+              }
+            },
+            ".boxed-slider": {
+              "position": "relative",
+              "padding": "93px 0"
+            },
+            ".boxed-slider > div": {
+              "position": "relative"
+            },
+            ".container img": {
+              "width": "100%"
+            },
+            ".container img + .row": {
+              "position": "absolute",
+              "top": "50%",
+              "left": "0",
+              "right": "0",
+              "-webkit-transform": "translateY(-50%)",
+              "-moz-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "z-index": "2"
+            },
+            ".mbr-section": {
+              "padding": "0",
+              "background-attachment": "scroll"
+            },
+            ".mbr-table-cell": {
+              "padding": "0"
+            },
+            ".container .carousel-indicators": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-caption": {
+              "top": "50%",
+              "right": "0",
+              "bottom": "auto",
+              "left": "0",
+              "display": "-webkit-flex",
+              "align-items": "center",
+              "-webkit-transform": "translateY(-50%)",
+              "transform": "translateY(-50%)",
+              "-webkit-align-items": "center"
+            },
+            ".mbr-overlay": {
+              "z-index": "1"
+            },
+            ".container-slide.container": {
+              "width": "100%",
+              "min-height": "100vh",
+              "padding": "0"
+            },
+            ".carousel-item": {
+              "background-position": "50% 50%",
+              "background-repeat": "no-repeat",
+              "background-size": "cover",
+              "-o-transition": "-o-transform 0.6s ease-in-out",
+              "-webkit-transition": "-webkit-transform 0.6s ease-in-out",
+              "transition": "transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out, -o-transform 0.6s ease-in-out",
+              "-webkit-backface-visibility": "hidden",
+              "backface-visibility": "hidden",
+              "-webkit-perspective": "1000px",
+              "perspective": "1000px",
+              ".container": {
+                "@media (max-width: 576px)": {
+                  "width": "100%"
+                }
+              }
+            },
+            ".carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right": {
+              "-webkit-transform": "translate3d(0, 0, 0)",
+              "transform": "translate3d(0, 0, 0)"
+            },
+            ".active.carousel-item-right, .carousel-item-next": {
+              "-webkit-transform": "translate3d(100%, 0, 0)",
+              "transform": "translate3d(100%, 0, 0)"
+            },
+            ".active.carousel-item-left, .carousel-item-prev": {
+              "-webkit-transform": "translate3d(-100%, 0, 0)",
+              "transform": "translate3d(-100%, 0, 0)"
+            },
+            ".mbr-slider": {
+              ".carousel-control": {
+                "top": "50%",
+                "width": "50px",
+                "height": "50px",
+                "margin-top": "-1.5rem",
+                "font-size": "35px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "transition": "all .3s",
+                "&.carousel-control-prev": {
+                  "left": "0",
+                  "margin-left": "2.5rem"
+                },
+                "&.carousel-control-next": {
+                  "right": "0",
+                  "margin-right": "2.5rem"
+                },
+                ".mbr-iconfont": {
+                  "font-size": "1.5rem"
+                },
+                "@media (max-width: 767px)": {
+                  "top": "auto",
+                  "bottom": "1rem"
+                }
+              },
+              ".carousel-indicators": {
+                "position": "absolute",
+                "bottom": "0",
+                "margin-bottom": "1.5rem !important",
+                "li": {
+                  "max-width": "15px",
+                  "height": "15px",
+                  "width": "15px",
+                  "max-height": "15px",
+                  "margin": "3px",
+                  "background-color": "rgba(0, 0, 0, 0.5)",
+                  "border": "2px solid #fff",
+                  "border-radius": "50%",
+                  "opacity": ".5",
+                  "transition": "all .3s",
+                  "&.active, &:hover": {
+                    "opacity": ".9"
+                  },
+                  "&::after, &::before": {
+                    "content": "none"
+                  }
+                },
+                "&.ie-fix": {
+                  "left": "50%",
+                  "display": "block",
+                  "width": "60%",
+                  "margin-left": "-30%",
+                  "text-align": "center"
+                },
+                "@media (max-width: 576px)": {
+                  "display": "none !important"
+                }
+              },
+              "> .container": {
+                "img": {
+                  "width": "100%",
+                  "+ .row": {
+                    "position": "absolute",
+                    "top": "50%",
+                    "right": "0",
+                    "left": "0",
+                    "z-index": "2",
+                    "-moz-transform": "translateY(-50%)",
+                    "-webkit-transform": "translateY(-50%)",
+                    "transform": "translateY(-50%)"
+                  }
+                },
+                ".carousel-indicators": {
+                  "margin-bottom": "3px"
+                },
+                "@media (max-width: 576px)": {
+                  ".carousel-control": {
+                    "margin-bottom": "0"
+                  }
+                }
+              },
+              ".mbr-section": {
+                "padding": "0",
+                "background-attachment": "scroll"
+              },
+              ".mbr-table-cell": {
+                "padding": "0"
+              }
+            },
+            ".carousel-item .container.container-slide": {
+              "position": "initial",
+              "width": "auto",
+              "min-height": "0"
+            },
+            ".full-screen": {
+              ".slider-fullscreen-image": {
+                "min-height": "100vh",
+                "background-repeat": "no-repeat",
+                "background-position": "50% 50%",
+                "background-size": "cover",
+                "&.active": {
+                  "display": "-o-flex"
+                }
+              },
+              "& .container": {
+                "width": "auto",
+                "padding-right": "0",
+                "padding-left": "0"
+              },
+              ".carousel-item .container.container-slide": {
+                "width": "100%",
+                "min-height": "100vh",
+                "padding": "0",
+                "& img": {
+                  "display": "none"
+                }
+              }
+            },
+            ".mbr-background-video-preview": {
+              "position": "absolute",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0"
+            },
+            ".mbr-overlay ~ .container-slide": {
+              "z-index": "auto"
+            },
+            ".mbr-slider.slide .container": {
+              "overflow": "hidden",
+              "padding": "0"
+            },
+            ".carousel-inner": {
+              "height": "100%"
+            },
+            ".slider-fullscreen-image": {
+              "height": "100%",
+              "background": "transparent !important"
+            },
+            ".image_wrapper": {
+              "height": "(@sliderHSize * 1px)",
+              "width": "100%",
+              "position": "relative",
+              "display": "inline-block"
+            },
+            ".image_wrapper img": {
+              "width": "auto !important",
+              "height": "100%"
+            },
+            ".carousel-item .container-slide": {
+              "text-align": "center"
+            },
+            ".content-slider-wrap": {
+              "width": "(@sliderWSize * 1%)"
+            }
+          },
+          "_name": "slider2",
+          "_customHTML": "<section class=\"carousel slide\" group=\"Sliders & Gallery\" plugins=\"YTPlayer,VimeoPlayer,SliderVideo,BootstrapCarouselSwipe\" data-interval=\"false\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <!-- <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked> -->\n        <input type=\"hidden\" name=\"typeSlider\" value=\"headerSlider\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" inline>\n        <input type=\"range\" title=\"Width\" name=\"sliderWSize\" min=\"50\" max=\"100\" step=\"1\" value=\"60\" inline>\n        <input type=\"range\" title=\"Height\" name=\"sliderHSize\" min=\"300\" max=\"700\" step=\"10\" value=\"400\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"carousel\" title=\"Slides\" name=\"slides\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container content-slider\">\n        <div class=\"content-slider-wrap\">\n            <div mbr-carousel=\"slides\"></div> \n        </div>\n    </div>\n</section>",
+          "_cid": "rVAUyGWoVF",
+          "_anchor": "slider2-g",
+          "_protectedParams": [
+            "slides__autoplay",
+            "slides__autoplayInterval",
+            "slides__showBullets",
+            "slides"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "slides__autoplay": "false",
+            "slides__autoplayInterval": 4000,
+            "slides__showBullets": true,
+            "slides": [
+              {
+                "image": "@THEME_PATH@/components/_images/background1.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "alt": "",
+                "title": "",
+                "textTitle": "FULL SCREEN SLIDER",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@THEME_PATH@/components/_images/background2.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": true,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "alt": "",
+                "title": "",
+                "textTitle": "VIDEO SLIDE",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Slide with youtube video background and color overlay. Title and text are aligned to the left.",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/2020-04-08-18h31-23-629x359.png",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-7",
+                "customStyle3": "display-4",
+                "alt": "",
+                "title": "",
+                "textTitle": "IMAGE SLIDE",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" data-app-placeholder=\"Type Text\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0"
+              }
+            ]
+          }
         },
         {
           "alias": false,
@@ -1425,13 +1800,89 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">This will have all the payload information</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rVuZRujvdO",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    AR Invloce Creation</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Request Payload</b><br><br><br><b>Response Payload</b></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rVATrHfVWy",
+          "_anchor": "content4-c",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-9"
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Journal Creation</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Request Payload</b><br><br><b>Response Payload</b></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rVATEIxQix",
+          "_anchor": "content4-d",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">BankStatement Import</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Request Payload</b><br><br><b>Response Payload</b></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rVATPCVmLB",
+          "_anchor": "content4-e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Segment Values and hierarchy</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>Request Payload</b><br><br><br><b>Response Payload</b></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rVAU3UNTCf",
+          "_anchor": "content4-f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#073b4c"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Fetch AP invoices from UCM VIA ws</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><b>End Point :</b><br>https://POD-test.fa.us6.oraclecloud.com:443/idcws/GenericSoapPort<br><b>Request Payload</b><br>&lt;soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ucm=\"http://www.oracle.com/UCM\"&gt;\n<div>&nbsp; &nbsp;&lt;soapenv:Header/&gt;\n</div><div>&nbsp; &nbsp;&lt;soapenv:Body&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;ucm:GenericRequest webKey=\"cs\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Service IdcService=\"GET_FILE\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ucm:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Field name=\"dID\"&gt;236989&lt;/ucm:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp;<b> &nbsp; Response Payload</b></div><br><div>xmlns:env=\"http://schemas.xmlsoap.org/soap/envelope/\"&gt;\n</div><div>&nbsp; &lt;env:Header/&gt;\n</div><div>&nbsp; &lt;env:Body&gt;\n</div><div><b>&nbsp; &nbsp;</b> &lt;ns2:GenericResponse xmlns:ns2=\"http://www.oracle.com/UCM\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;ns2:Service IdcService=\"GET_FILE\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dID\"&gt;236989&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"IdcService\"&gt;GET_FILE&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"IsQueryObjectPersistent\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dExtension\"&gt;tif&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"Rendition\"&gt;primary&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"accessedDocInfoCache\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dUser\"&gt;integration&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"refreshMonikers\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"refreshSubMonikers\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"FileName\"&gt;8AE1BDBFECFA4959AD36F63817587909_____8AE1BDBFECFA4959AD36F63817587909.tif&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"changedMonikers\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocName\"&gt;IPM_00237292&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"idcToken\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"UseForwardOnlyCursor\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"localizedForResponse\"&gt;1&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:ResultSet name=\"FILE_DOC_INFO\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Row&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dID\"&gt;236989&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocName\"&gt;IPM_00237292&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocType\"&gt;Document&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocTitle\"&gt;8AE1BDBFECFA4959AD36F63817587909_____8AE1BDBFECFA4959AD36F63817587909&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocAuthor\"&gt;FUSION_APPS_FIN_ADF_APPID&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dRevClassID\"&gt;237292&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dRevisionID\"&gt;1&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dRevLabel\"&gt;1&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dIsCheckedOut\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dCheckoutUser\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dSecurityGroup\"&gt;IPMSYS_APP_1&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dCreateDate\"&gt;9/9/19 2:17 PM&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dInDate\"&gt;9/9/19 2:17 PM&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dOutDate\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dStatus\"&gt;RELEASED&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dReleaseState\"&gt;Y&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dFlag1\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dWebExtension\"&gt;tif&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dProcessingState\"&gt;Y&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dMessage\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocAccount\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dReleaseDate\"&gt;9/9/19 2:17 PM&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dRendition1\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dRendition2\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dIndexerState\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dPublishType\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dPublishState\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dWorkflowState\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dRevRank\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocID\"&gt;472301&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dID\"&gt;236989&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dIsPrimary\"&gt;1&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dIsWebFormat\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dLocation\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dOriginalName\"&gt;8AE1BDBFECFA4959AD36F63817587909_____8AE1BDBFECFA4959AD36F63817587909.tif&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dFormat\"&gt;image/tiff&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dExtension\"&gt;tif&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dFileSize\"&gt;251702&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dLanguage\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dCharacterSet\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dID\"&gt;236989&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xComments\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xExternalDataSet\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIdcProfile\"&gt;IpmApp_1&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xCpdIsTemplateEnabled\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xCpdIsLocked\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xTemplateType\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xPartitionId\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xWebFlag\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xStorageRule\"&gt;FusionStorageRule&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xDamConversionType\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xPackagedConversions\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xVideoRenditions\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xCollectionID\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xHidden\"&gt;FALSE&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xReadOnly\"&gt;FALSE&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xInhibitUpdate\"&gt;FALSE&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xForceFolderSecurity\"&gt;FALSE&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPMSYS_APP_ID\"&gt;1&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPMSYS_BATCH_ID1\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPMSYS_BATCH_SEQ\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPMSYS_PARENT_ID\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPMSYS_REDACTION\"&gt;0&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPMSYS_SCKEY\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPMSYS_STATUS\"&gt;1568038633915&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xWCTags\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xWCPageId\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xWCWorkflowAssignment\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xWCWorkflowApproverUserList\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xFndVirusScanner\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xFndVirusScanDefVersion\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xFndVirusScanDate\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xFndVirusScanDataHash\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xFndVirusScanResult\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xFndVirusScanThreat\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xPartnerProgram\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xPartnerLevel\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xPartnerType\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_0\"&gt;DUQUESNE LIGHT HOLDINGS&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_1\"&gt;3891913&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_2\"&gt;0101308055&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_3\"&gt;52014.74&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_4\"&gt;3/3/13 11:00 AM&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_5\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_6\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_7\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_8\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_9\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_10\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_1_11\"&gt;8AE1BDBFECFA4959AD36F63817587909&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xIPM_APP_2_0\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"xLibraryGUID\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dRevClassID\"&gt;237292&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocName\"&gt;IPM_00237292&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dIndexedID\"&gt;236989&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocCreatedDate\"&gt;9/9/19 2:17 PM&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocCreator\"&gt;FUSION_APPS_FIN_ADF_APPID&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocLastModifiedDate\"&gt;9/9/19 2:17 PM&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocLastModifier\"&gt;FUSION_APPS_FIN_ADF_APPID&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocOwner\"&gt;FUSION_APPS_FIN_ADF_APPID&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocFunction\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dDocClass\"/&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ns2:Row&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ns2:ResultSet&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:ResultSet name=\"UserAttribInfo\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Row&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"dUserName\"&gt;integration&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:Field name=\"AttributeInfo\"&gt;account,#none,15,account,crm$/salesAccountResourceTeam$/import$,7,account,fin$/budgetBalance$/import$,7,account,crm$/partnerContact$/import$,7,account,prc$/purchaseOrder$/import$,7,account,crm$/commonCustomObject$/import$,7,account,fin$/assets$/import$,7,account,crm$/countryStructure$/import$,7,account,crm$/atcProductCatalog$/schema$,7,account,crm$/resourceTeam$/import$,7,account,fin$/tax$/export$,7,account,scm$/BrazilSEFAZPartnerMessages$/export$,7,account,crm$/promotion$/import$,7,account,crm$/atcProductCatalog$/images$,7,account,crm$/quota$/import$,7,account,prj$/projectControl$/import$,7,account,scm$/CMKOutboundMessageQueue$/export$,7,account,crm$/classificationCode$/import$,7,account,crm$/cssRoles$/import$,7,account,fin$/budgetaryControl$/import$,7,account,crm$/salesBusinessPlan$/import$,7,account,setup$/functionalSetupManager$/export$,7,account,crm$/customerHierarchy$/import$,7,account,scm$/receivingReceipt$/import$,7,account,crm$/asset$/import$,7,account,scm$/vmiRelationship$/import$,7,account,crm$/mooTopExtn$/import$,7,account,crm$/partner$/import$,7,account,crm$/mktCampaigns$/import$,7,account,crm$/territory$/import$,7,account,crm$/mctCtdAgent$/import$,7,account,crm$/dupManagement$/import$,7,account,ic$/incentiveCompensationTransaction$/import$,7,account,crm$/atcProductCatalog$/export$,7,account,scm$/OAGIS7PartnerMessages$/export$,7,account,crm$/customerHierarchyMember$/import$,7,account,crm$/mktActInteraction$/import$,7,account,prc$/requisition$/import$,7,account,fin$/cashManagement$/export$,7,account,fin$/receivables$/export$,7,account,hcm$/dataloader$/import$,7,account,crm$/dealRegistration$/import$,7,account,crm$/mktList$/import$,7,account,fin$/generalLedger$/import$,7,account,fin$/payables$/import$,7,account,crm$/mktActAdvertising$/import$,7,account,hcm$/common$/content$,7,account,fin$/payments$/export$,7,account,crm$/response$/import$,7,account,scm$/B2BConfiguration$/import$,7,account,crm$/contact$/import$,7,account,scm$/OAGIS10PartnerMessages$/import$,7,account,prc$/contractPurchaseAgreement$/import$,7,account,hed$/data$/import$,7,account,crm$/interaction$/import$,7,account,scm$/BrazilSEFAZSupplierMessages$/import$,7,account,fin$/assets$/export$,7,account,prj$/projectResourceManagement$/import$,7,account,scm$/vmiRelationship$/export$,7,account,crm$/customer$/import$,7,account,fin$/tax$/import$,7,account,crm$/lead$/import$,7,account,scm$/BrazilSEFAZPartnerMessages$/import$,7,account,prc$/supplier$/import$,7,account,crm$/consumer$/import$,7,account,crm$/opportunity$/import$,7,account,scm$/planningDataLoader$/import$,7,account,crm$/agreement$/import$,7,account,crm$/mctAgentConnParams$/import$,7,account,crm$/zcaTopExtn$/export$,7,account,crm$/iotasset$/import$,7,account,crm$/productGroup$/import$,7,account,crm$/mktCampMembers$/import$,7,account,crm$/contract$/import$,7,account,crm$/iotreg$/import$,7,account,crm$/simplifiedContact$/import$,7,account,crm$/groupCustomer$/import$,7,account,crm$/subscription$/import$,7,account,crm$/employeeResource$/import$,7,account,crm$/task$/import$,7,account,prj$/projectFoundation$/import$,7,account,crm$/simplifiedHousehold$/import$,7,account,crm$/sourcesystemreference$/import$,7,account,crm$/note$/import$,7,account,fin$/generalLedger$/export$,7,account,prc$/blanketPurchaseAgreement$/import$,7,account,setup$/functionalSetupManager$/import$,7,account,csm$/archive$,7,account,crm$/salesObjective$/import$,7,account,crm$/mktTopExtn$/import$,7,account,fin$/fusionAccountingHub$/import$,7,account,crm$/simplifiedAccount$/import$,7,account,psc$/commoncomponents$/import$,7,account,scm$/maintenanceAsset$/import$,7,account,prj$/projectSetup$/import$,7,account,scm$/OAGIS10PartnerMessages$/export$,7,account,hcm$/dataloader$/export$,7,account,fin$/receivables$/import$,7,account,prj$/projectManagement$/import$,7,account,fin$/intercompany$/import$,7,account,hed$/data$/export$,7,account,fin$/payables$/export$,7,account,crm$/atcProductCatalog$/import$,7,account,prj$/projectEnterpriseResource$/import$,7,account,scm$/OAGIS7PartnerMessages$/import$,7,account,crm$/legalEntity$/import$,7,account,crm$/programEnrollments$/import$,7,account,scm$/planningDataLoader$/export$,7,account,fin$/cashManagement$/import$,7,account,fin$/payments$/import$,7,account,prj$/projectCosting$/import$,7,account,scm$/item$/import$,7,account,crm$/appointment$/import$,7,account,prj$/grantsManagement$/import$,7,account,crm$/mktBudget$/import$,7,account,prj$/projectBilling$/import$,7,account,crm$/geography$/import$,7,account,crm$/mktActEvent$/import$,7,account,AUTHEN,1,account,WCILS,15,account,UCM_Spaces/PU,1,account,PUBLIC,1,account,PEWebCenter/PU,1,account,s8e85552ee64b4407b4d08ecb3e4bf1b8,15,role,guest,15,role,HED_DATA_IMPORT_RWD,15,role,SCM_PLANNINGDATALOADER_IMPORT_RWD,15,role,CRM_PARTNER_IMPORT_RWD,15,role,SCM_VMIRELATIONSHIP_EXPORT_RWD,15,role,CRM_AGREEMENT_IMPORT_RWD,15,role,ORA_AR_ACCOUNTS_RECEIVABLE_MANAGER_JOB,15,role,CRM_DUPMANAGEMENT_IMPORT_RWD,15,role,CRM_TASK_IMPORT_RWD,15,role,CRM_LEAD_IMPORT_RWD,15,role,PRC_CONTRACTPURCHASEAGREEMENT_IMPORT_RWD,15,role,ORA_PO_PROCUREMENT_APPLICATION_ADMIN_JOB,15,role,CRM_ZCATOPEXTN_EXPORT_RWD,15,role,FIN_CASHMANAGEMENT_IMPORT_RWD,15,role,ORA_PO_BUYER_JOB,15,role,CRM_COMMONCUSTOMOBJECT_IMPORT_RWD,15,role,CRM_CONSUMER_IMPORT_RWD,15,role,SCM_RECEIVINGRECEIPT_IMPORT_RWD,15,role,CRM_MCTAGENTCONNPARAMS_IMPORT_RWD,15,role,SETUP_FUNCTIONALSETUPMANAGER_EXPORT_RWD,15,role,CRM_MKTACTINTERACTION_IMPORT_RWD,15,role,CSM_ARCHIVE_RWD,15,role,HCM_COMMON_CONTENT_RWD,15,role,ORA_FUN_FINANCIAL_APPLICATION_ADMINISTRATOR_JOB,15,role,CRM_IOTASSET_IMPORT_RWD,15,role,ORA_PO_PROCUREMENT_CONTRACT_ADMIN_JOB,15,role,CRM_MKTACTEVENT_IMPORT_RWD,15,role,PRC_BLANKETPURCHASEAGREEMENT_IMPORT_RWD,15,role,SCM_ITEM_IMPORT_RWD,15,role,CRM_SUBSCRIPTION_IMPORT_RWD,15,role,ORA_AP_WEBCENTER_DOCUMENT_VIEW_DUTY,15,role,SCM_OAGIS7PARTNERMESSAGES_EXPORT_RWD,15,role,PRC_SUPPLIER_IMPORT_RWD,15,role,CRM_ATCPRODUCTCATALOG_EXPORT_RWD,15,role,SCM_VMIRELATIONSHIP_IMPORT_RWD,15,role,FIN_GENERALLEDGER_EXPORT_RWD,15,role,HCM_DATALOADER_EXPORT_RWD,15,role,HED_DATA_EXPORT_RWD,15,role,ORA_HRC_HUMAN_CAPITAL_MANAGEMENT_APPLICATION_ADMINISTRATOR_JOB,15,role,CRM_RESPONSE_IMPORT_RWD,15,role,ORA_FUN_FINANCIAL_INTEGRATION_SPECIALIST_JOB,15,role,FIN_ASSETS_IMPORT_RWD,15,role,ORA_PJF_PROJECTS_APPLICATION_ADMINISTRATOR_JOB,15,role,CRM_CUSTOMERHIERARCHYMEMBER_IMPORT_RWD,15,role,ORA_EGI_PRODUCT_DATA_STEWARD_JOB,15,role,ORA_AR_ACCOUNTS_RECEIVABLE_SPECIALIST_JOB,15,role,CRM_MKTLIST_IMPORT_RWD,15,role,CRM_SIMPLIFIEDACCOUNT_IMPORT_RWD,15,role,PRJ_PROJECTSETUP_IMPORT_RWD,15,role,ORA_ASM_APPLICATION_IMPLEMENTATION_CONSULTANT_JOB,15,role,FIN_PAYMENTS_EXPORT_RWD,15,role,ORA_POS_SUPPLIER_ACCOUNTS_RECEIVABLE_SPECIALIST_JOB,15,role,CRM_SIMPLIFIEDCONTACT_IMPORT_RWD,15,role,CRM_TERRITORY_IMPORT_RWD,15,role,FIN_ASSETS_EXPORT_RWD,15,role,ORA_ZCA_CUSTOMER_RELATIONSHIP_MANAGEMENT_APPLICATION_ADMINISTRATOR_JOB,15,role,CRM_MOOTOPEXTN_IMPORT_RWD,15,role,FIN_TAX_EXPORT_RWD,15,role,CRM_PRODUCTGROUP_IMPORT_RWD,15,role,ORA_AP_ACCOUNTS_PAYABLE_SUPERVISOR_JOB,15,role,FIN_PAYMENTS_IMPORT_RWD,15,role,FIN_PAYABLES_IMPORT_RWD,15,role,ORA_OKC_SUPPLIER_CONTRACT_MANAGER_JOB,15,role,PRJ_GRANTSMANAGEMENT_IMPORT_RWD,15,role,CRM_ATCPRODUCTCATALOG_IMAGES_RWD,15,role,CRM_LEGALENTITY_IMPORT_RWD,15,role,CRM_IOTREG_IMPORT_RWD,15,role,ORA_FND_APPLICATION_ADMINISTRATOR_JOB,15,role,ORA_PO_PROCUREMENT_INTEGRATION_SPECIALIST_JOB,15,role,ORA_ZX_TAX_ADMINISTRATOR_JOB,15,role,CRM_SALESOBJECTIVE_IMPORT_RWD,15,role,CRM_ATCPRODUCTCATALOG_SCHEMA_RWD,15,role,ORA_GL_GENERAL_ACCOUNTANT_JOB,15,role,CRM_ATCPRODUCTCATALOG_IMPORT_RWD,15,role,SCM_BRAZILSEFAZSUPPLIERMESSAGES_IMPORT_RWD,15,role,CRM_SOURCESYSTEMREFERENCE_IMPORT_RWD,15,role,CRM_COUNTRYSTRUCTURE_IMPORT_RWD,15,role,ORA_OKC_SUPPLIER_CONTRACT_ADMINISTRATOR_JOB,15,role,SCM_BRAZILSEFAZPARTNERMESSAGES_EXPORT_RWD,15,role,SCM_OAGIS10PARTNERMESSAGES_EXPORT_RWD,15,role,CRM_SALESBUSINESSPLAN_IMPORT_RWD,15,role,ORA_RCS_SUPPLY_CHAIN_APPLICATION_ADMINISTRATOR_JOB,15,role,PRJ_PROJECTMANAGEMENT_IMPORT_RWD,15,role,FIN_FUSIONACCOUNTINGHUB_IMPORT_RWD,15,role,ORA_PON_CATEGORY_MANAGER_JOB,15,role,CRM_RESOURCETEAM_IMPORT_RWD,15,role,ORA_HEY_HIGHER_EDUCATION_APPLICATION_ADMINISTRATOR_JOB,15,role,AttachmentsUser,15,role,CRM_MCTCTDAGENT_IMPORT_RWD,15,role,ORA_PSC_PERMITS_APPLICATION_ADMINISTRATOR_JOB,15,role,CRM_CONTACT_IMPORT_RWD,15,role,ORA_PER_EMPLOYEE_ABSTRACT,15,role,PSC_COMMONCOMPONENTS_IMPORT_RWD,15,role,ORA_HRC_HUMAN_CAPITAL_MANAGEMENT_INTEGRATION_SPECIALIST_JOB,15,role,CRM_CONTRACT_IMPORT_RWD,15,role,FIN_INTERCOMPANY_IMPORT_RWD,15,role,ORA_POZ_SUPPLIER_ADMINISTRATOR_ABSTRACT,15,role,CRM_DEALREGISTRATION_IMPORT_RWD,15,role,ORA_CZ_PRODUCT_CONFIGURATOR_MANAGER_JOB,15,role,CRM_PROMOTION_IMPORT_RWD,15,role,PRJ_PROJECTBILLING_IMPORT_RWD,15,role,CRM_EMPLOYEERESOURCE_IMPORT_RWD,15,role,CRM_GEOGRAPHY_IMPORT_RWD,15,role,SCM_OAGIS10PARTNERMESSAGES_IMPORT_RWD,15,role,ORA_ZCH_DATA_STEWARD_MANAGER_JOB,15,role,SCM_B2BCONFIGURATION_IMPORT_RWD,15,role,FIN_TAX_IMPORT_RWD,15,role,FIN_RECEIVABLES_IMPORT_RWD,15,role,ORA_PO_PROCUREMENT_MANAGER_JOB,15,role,ORA_GL_GENERAL_ACCOUNTING_MANAGER_JOB,15,role,CRM_PROGRAMENROLLMENTS_IMPORT_RWD,15,role,DLC_UCM_and_Monitor_Read_Only,15,role,CRM_PARTNERCONTACT_IMPORT_RWD,15,role,HCM_DATALOADER_IMPORT_RWD,15,role,CRM_NOTE_IMPORT_RWD,15,role,HCM_COMMON_CONTENT_R,15,role,CRM_MKTCAMPMEMBERS_IMPORT_RWD,15,role,CRM_INTERACTION_IMPORT_RWD,15,role,CRM_SALESACCOUNTRESOURCETEAM_IMPORT_RWD,15,role,CRM_SIMPLIFIEDHOUSEHOLD_IMPORT_RWD,15,role,ORA_PON_SUPPLIER_BIDDER_ABSTRACT,15,role,CRM_CLASSIFICATIONCODE_IMPORT_RWD,15,role,DLC_PO_BUYER_JOB_CUSTOM,15,role,CRM_APPOINTMENT_IMPORT_RWD,15,role,CRM_MKTTOPEXTN_IMPORT_RWD,15,role,ORA_EGS_SUPPLIER_PRODUCT_ADMINISTRATOR_JOB,15,role,CRM_CUSTOMERHIERARCHY_IMPORT_RWD,15,role,ORA_POS_SUPPLIER_CUSTOMER_SERVICE_REPRESENTATIVE_JOB,15,role,CRM_OPPORTUNITY_IMPORT_RWD,15,role,ORA_AP_ACCOUNTS_PAYABLE_MANAGER_JOB,15,role,SETUP_FUNCTIONALSETUPMANAGER_IMPORT_RWD,15,role,SCM_BRAZILSEFAZPARTNERMESSAGES_IMPORT_RWD,15,role,ORA_AP_ACCOUNTS_PAYABLE_SPECIALIST_JOB,15,role,SCM_CMKOUTBOUNDMESSAGEQUEUE_EXPORT_RWD,15,role,CRM_CUSTOMER_IMPORT_RWD,15,role,ORA_OSS_SUBSCRIPTION_SPECIALIST_JOB,15,role,PRJ_PROJECTCONTROL_IMPORT_RWD,15,role,FIN_CASHMANAGEMENT_EXPORT_RWD,15,role,CRMDelete,15,role,PRJ_PROJECTRESOURCEMANAGEMENT_IMPORT_RWD,15,role,FIN_BUDGETBALANCE_IMPORT_RWD,15,role,CRM_GROUPCUSTOMER_IMPORT_RWD,15,role,PRC_REQUISITION_IMPORT_RWD,15,role,SCM_PLANNINGDATALOADER_EXPORT_RWD,15,role,PRJ_PROJECTFOUNDATION_IMPORT_RWD,15,role,CRM_CSSROLES_IMPORT_RWD,15,role,FIN_BUDGETARYCONTROL_IMPORT_RWD,15,role,CRM_QUOTA_IMPORT_RWD,15,role,IC_INCENTIVECOMPENSATIONTRANSACTION_IMPORT_RWD,15,role,PRC_PURCHASEORDER_IMPORT_RWD,15,role,FIN_GENERALLEDGER_IMPORT_RWD,15,role,PRJ_PROJECTCOSTING_IMPORT_RWD,15,role,CRM_MKTACTADVERTISING_IMPORT_RWD,15,role,ORA_ZCH_TRADING_COMMUNITY_DATA_STEWARD_JOB,15,role,FIN_RECEIVABLES_EXPORT_RWD,15,role,CRM_MKTCAMPAIGNS_IMPORT_RWD,15,role,PRJ_PROJECTENTERPRISERESOURCE_IMPORT_RWD,15,role,DLC_AP_PAYABLES_INVOICE_INQUIRY_DUTY,15,role,CRMStageWrite,15,role,FIN_PAYABLES_EXPORT_RWD,15,role,CRM_ASSET_IMPORT_RWD,15,role,CRM_MKTBUDGET_IMPORT_RWD,15,role,CRMRead,15,role,SCM_MAINTENANCEASSET_IMPORT_RWD,15,role,SCM_OAGIS7PARTNERMESSAGES_IMPORT_RWD,15,role,UCM_SpacesAuthenUser,1,role,UCM_SpacesUser,1,role,PersonalSpacesRole,1,role,PersonalSpacesAuthenRole,1,role,authenticated,15&lt;/ns2:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ns2:Row&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ns2:ResultSet&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ns2:File name=\"\" href=\"8AE1BDBFECFA4959AD36F63817587909_____8AE1BDBFECFA4959AD36F63817587909.tif\"&gt;\n</div>&nbsp;&lt;ns2:Contents&gt;SUkqAAgAAAAUAP4ABAABAAAAAgAA/ &lt;ns2:Contents&gt;<br><div>&nbsp;&lt;/ns2:File&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &lt;/ns2:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;/ns2:Service&gt;\n</div><div>&nbsp; &nbsp; &lt;/ns2:GenericResponse&gt;\n</div><div>&nbsp; &lt;/env:Body&gt;\n</div><div>&lt;/env:Envelope&gt;</div></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rVF08kRTPp",
+          "_anchor": "content4-h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
@@ -1447,7 +1898,8 @@
               "margin": "0 auto"
             },
             ".section-text": {
-              "padding": "2rem 0"
+              "padding": "2rem 0",
+              "color": "#073b4c"
             },
             ".inner-container": {
               "margin": "0 auto"
@@ -1456,16 +1908,38 @@
               ".inner-container": {
                 "width": "100% !important"
               }
+            },
+            ".section-text DIV": {
+              "text-align": "left"
             }
           },
           "_name": "content9",
-          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text>Sample Payload:\n<div>\n</div><div>&lt;soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ucm=\"http://www.oracle.com/UCM\"&gt;\n</div><div>&nbsp; &nbsp;&lt;soapenv:Header/&gt;\n</div><div>&nbsp; &nbsp;&lt;soapenv:Body&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;ucm:GenericRequest webKey=\"cs\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Service IdcService=\"GET_FILE\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ucm:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Field name=\"dID\"&gt;236989&lt;/ucm:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ucm:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;/ucm:Service&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;/ucm:GenericRequest&gt;\n</div><div>&nbsp; &nbsp;&lt;/soapenv:Body&gt;\n</div><div>&lt;/soapenv:Envelope&gt;\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content9\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Text Width\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"100\">\n        <input type=\"range\" inline title=\"Line Width\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"25\">\n        <input type=\"color\" title=\"Line Color\" name=\"lineColor\" value=\"#149dcc\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\" mbr-text>Sample Payload:\n<div>\n</div><div>&lt;soapenv:Envelope xmlns:soapenv=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ucm=\"http://www.oracle.com/UCM\"&gt;\n</div><div>&nbsp; &nbsp;&lt;soapenv:Header/&gt;\n</div><div>&nbsp; &nbsp;&lt;soapenv:Body&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;ucm:GenericRequest webKey=\"cs\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Service IdcService=\"GET_FILE\"&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!--Optional:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;ucm:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;ucm:Field name=\"dID\"&gt;236989&lt;/ucm:Field&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Zero or more repetitions:--&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; \n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/ucm:Document&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&lt;/ucm:Service&gt;\n</div><div>&nbsp; &nbsp; &nbsp; &lt;/ucm:GenericRequest&gt;\n</div><div>&nbsp; &nbsp;&lt;/soapenv:Body&gt;\n</div><div>&lt;/soapenv:Envelope&gt;\n</div><div><br></div></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n        </div>\n</section>",
           "_cid": "rVuZS0pDWL",
+          "_anchor": "content9-a",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content9-a"
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    Article Title with Solid Background\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                    Shape your future web project with sharp design and refine coded functions.\n                </h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n",
+          "_cid": "rVATqdePRk",
+          "_anchor": "content4-b",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     }
